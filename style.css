@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Varela+Round&display=swap');
+
+
+body{
+    background-color: rgb(77, 78, 78);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* styling the  nav bar of our website */
+nav{
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav ul {
+    background-color: black;
+    list-style-type: none;
+    height: 65px;
+    display: flex;
+    color: white;
+    align-items: center;
+
+}
+
+nav ul li{
+    padding: 0px 12px;
+}
+
+/* styling our logo image an it content */
+
+.brand img{
+    width: 44px;
+    padding: 0px 8px;
+
+}
+.brand{
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    align-items: center;
+
+}
+
+
+/*styling the bottom line  */
+
+.content_container{
+    min-height: 70vh;
+    background-color: black;
+    color:white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('wp2836124-music-laptop-wallpapers.jpg');
+
+}
+
+
+.bottom_bar{
+    position:sticky;
+    height: 100px;
+    background-color:black;
+    color:white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#musicrangebar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons i{
+    cursor: pointer;
+}
+.icons{
+    margin-top: 12px ;
+}
+
+
+/* styling the css for songitems or list */
+
+.songitemsContainers{
+    margin-top: 65px;
+}
+
+.songitems{
+    height:50px;
+    background-color: white;
+    color: black;
+    display: flex;
+    margin: 12px 0px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.songitems img{
+    width: 43px;
+    margin: 0px 23px;
+    border-radius: 8px;
+    
+}
+
+.timestamp{
+    margin: 0px 23px;
+}
+
+.timestamp i{
+    cursor:pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    font-size: 18px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songinfo img{
+opacity: 0;
+transition: opacity 1s ease-in;
+
+}
