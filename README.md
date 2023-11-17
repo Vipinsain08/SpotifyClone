@@ -6,7 +6,6 @@ SpotifyClone is a project aimed at bolstering HTML, CSS, and JavaScript skills. 
 ![Screenshot 2023-11-17 225633](https://github.com/Vipinsain08/SpotifyClone/assets/98072648/ae163f7d-32cf-4255-b1c9-a0a604e0e740)
 
 <H2>Future Work</H2>
-Here's a glimpse of future enhancements planned for this project:
 
 1. Dynamic Song Library: Expand the song library dynamically to automatically integrate new songs, enhancing the diversity of available music.
 
